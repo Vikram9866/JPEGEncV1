@@ -1,7 +1,7 @@
 from myhdl import always_comb, always_seq, block, delay
 from myhdl import instance, intbv, ResetSignal, Signal
 from EntropyCoder import entropycoder
-from myhdl.conversion import *
+from myhdl.conversion import analyze
 
 
 WIDTH_RAM_ADDRESS = 6
