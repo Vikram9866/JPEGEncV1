@@ -46,11 +46,8 @@ def rledoublefifo(reset, clock, dfifo_bus):
     @always_comb
     def assign():
         """write into fifo bus"""
-#        print ("%d" % fifo_data_in)
         fbus1.write_data.next = fifo_data_in
         fbus2.write_data.next = fifo_data_in
-        #print ("%d data is " % fifo_data_in)
-
 
 
     @always_seq(clock.posedge, reset=reset)
