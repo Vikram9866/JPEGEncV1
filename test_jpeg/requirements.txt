@@ -1,2 +1,0 @@
--e git://github.com/jandecaluwe/myhdl.git#egg=myhdl-1.0dev0
--e git://github.com/cfelton/rhea.git#egg=rhea
